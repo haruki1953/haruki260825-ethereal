@@ -4,7 +4,7 @@
   "private": true,
   "description": "借鉴 HTML5 UP Ethereal 模板搭建的静态网页",
   "scripts": {
-    "serve": "http-server ./ -p 60825",
+    "serve": "http-server ./ -p 60825 -c-1",
     "build:css": "sass assets/sass:assets/css",
     "watch:css": "sass --watch assets/sass:assets/css"
   },
