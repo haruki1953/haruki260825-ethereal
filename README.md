@@ -24,13 +24,13 @@
 
 ## 本地预览
 
-没有专用 dev server，直接浏览器打开 `index.html`，或起静态服务器：
+用 `pnpm serve`（脚本为 `http-server ./ -p 60825`）起本地静态服务器：
 
 ```bash
-python -m http.server
+pnpm serve
 ```
 
-然后访问 `http://localhost:8000/`。
+然后浏览器访问 `http://localhost:60825/`。也可直接双击打开 `index.html`。
 
 ## 横向滚动布局要点
 

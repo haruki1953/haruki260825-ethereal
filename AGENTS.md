@@ -36,7 +36,8 @@
 
 ## 预览方式
 
-- 没有专用 dev server。直接用浏览器打开 `index.html`，或起任意静态文件服务器（如 `python -m http.server`）访问即可。
+- 本地预览用 `pnpm serve`（脚本为 `http-server ./ -p 60825`），然后浏览器访问 `http://localhost:60825/`。
+- 也可直接双击打开 `index.html`，或起任意静态文件服务器。
 
 ## 其他
 
